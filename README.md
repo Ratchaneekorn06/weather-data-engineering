@@ -8,7 +8,7 @@ The project is designed to support daily travel and outdoor activity decisions b
 
 ## Architecture
 
-![System Architecture](screenshots/architecture.png)
+![System Architecture](weather-data-engineering/screenshots/architecture.png)
 
 ### Data Flow
 
@@ -201,7 +201,7 @@ The export process compares the source Gold table row count with the destination
 
 More details are available in:
 
-[`docs/data_quality.md`](docs/data_quality.md)
+[`docs/data_quality.md`](weather-data-engineering/docs/data_quality.md)
 
 ---
 
@@ -225,7 +225,7 @@ PostgreSQL serves as the downstream serving layer for the Metabase dashboard.
 
 ## Dashboard
 
-![Metabase Dashboard](screenshots/metabase_dashboard.png)
+![Metabase Dashboard](weather-data-engineering/screenshots/metabase_dashboard.png)
 
 The Metabase dashboard provides an interactive view of weather and environmental conditions across locations.
 
@@ -238,7 +238,7 @@ The dashboard includes information such as:
 
 The complete dashboard is also available as:
 
-[`Metabase Dashboard PDF`](<dashboard/Metabase - Travel & Health Decision Support Dashboard.pdf>)
+[`Metabase Dashboard PDF`](<weather-data-engineering/dashboard/Metabase - Travel & Health Decision Support Dashboard.pdf>)
 
 ---
 
@@ -281,12 +281,12 @@ weather-data-engineering/
 
 More detailed documentation is available in the following sections:
 
-* [System Architecture](architecture/architecture.md)
-* [Data Quality](docs/data_quality.md)
-* [Business Rules](docs/business_rules.md)
-* [Design Decisions](docs/design_decisions.md)
-* [Data Dictionary](docs/data_dictionary.md)
-* [Metabase Dashboard](dashboard/metabase.md)
+* [System Architecture](weather-data-engineering/architecture/architecture.md)
+* [Data Quality](weather-data-engineering/docs/data_quality.md)
+* [Business Rules](weather-data-engineering/docs/business_rules.md)
+* [Design Decisions](weather-data-engineering/docs/design_decisions.md)
+* [Data Dictionary](weather-data-engineering/docs/data_dictionary.md)
+* [Metabase Dashboard](weather-data-engineering/dashboard/metabase.md)
 
 ---
 
