@@ -238,7 +238,7 @@ The dashboard includes information such as:
 
 The complete dashboard is also available as:
 
-[`Metabase Dashboard PDF`](dashboard/Metabase - Travel & Health Decision Support Dashboard.pdf)
+[`Metabase Dashboard PDF`](<dashboard/Metabase - Travel & Health Decision Support Dashboard.pdf>)
 
 ---
 
