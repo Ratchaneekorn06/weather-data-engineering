@@ -270,7 +270,7 @@ weather-data-engineering/
 │
 ├── screenshots/
    ├── architecture.png
-    ├── databricks_job_dag.png
+   ├── databricks_job_dag.png
    └── metabase_dashboard.png
 
 ```
