@@ -81,7 +81,7 @@ Provides:
 
 Provides:
 
-* UV index data
+* UV index forecast data
 
 ---
 
