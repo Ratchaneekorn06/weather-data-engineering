@@ -254,9 +254,17 @@ weather-data-engineering/
 │
 ├── notebooks/
 │   ├── bronze/
+|   |   ├── ingest_weather.py
+|   |   ├── ingest_air_quality.py
+|   |   └── ingest_uv_index.py
 │   ├── silver/
+|   |   ├── clean_weather.py
+|   |   ├── clean_air_quality.py
+|   |   └── clean_uv_index.py
 │   ├── gold/
+|   |   └── gold_summary.py
 │   └── delivery/
+|       └── export_to_postgresql.py
 │
 ├── docs/
 │   ├── data_quality.md
@@ -268,7 +276,7 @@ weather-data-engineering/
 │   ├── metabase.md
 │   └── metabase_dashboard.pdf
 │
-├── screenshots/
+└── screenshots/
    ├── architecture.png
    ├── databricks_job_dag.png
    └── metabase_dashboard.png
