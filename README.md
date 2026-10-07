@@ -276,7 +276,7 @@ weather-data-engineering/
 │   ├── metabase.md
 │   └── metabase_dashboard.pdf
 │
-├── screenshots/
+└── screenshots/
    ├── architecture.png
    ├── databricks_job_dag.png
    └── metabase_dashboard.png
