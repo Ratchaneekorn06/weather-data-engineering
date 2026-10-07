@@ -258,12 +258,15 @@ weather-data-engineering/
 |   |   ├── ingest_weather.py
 |   |   ├── ingest_air_quality.py
 |   |   └── ingest_uv_index.py
+|   |
 │   ├── silver/
 |   |   ├── clean_weather.py
 |   |   ├── clean_air_quality.py
 |   |   └── clean_uv_index.py
+|   |
 │   ├── gold/
 |   |   └── gold_summary.py
+|   |
 │   └── delivery/
 |       └── export_to_postgresql.py
 │
