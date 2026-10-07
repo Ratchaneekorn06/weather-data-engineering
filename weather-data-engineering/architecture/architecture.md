@@ -105,21 +105,21 @@ The pipeline is orchestrated using **Databricks Jobs**.
 The Job contains notebook tasks arranged as a sequential DAG:
 
 ```text
-01_ingest_weather
+ingest_weather
         ↓
-01_ingest_air_quality
+ingest_air_quality
         ↓
-01_ingest_uv_index
+ingest_uv_index
         ↓
-02_silver_weather
+clean_weather
         ↓
-02_silver_air_quality
+clean_air_quality
         ↓
-02_silver_uv_index
+clean_uv_index
         ↓
-03_gold
+gold_summary
         ↓
-04_export_to_neon
+export_to_postgresql
 ```
 
 Each task starts after the previous task has completed successfully.
