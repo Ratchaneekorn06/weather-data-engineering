@@ -19,6 +19,7 @@ Open-Meteo API ──────┤
                      ▼
               Databricks
                      │
+                     ▼
               Bronze Layer
                      │
                      ▼
